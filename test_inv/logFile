@@ -1,0 +1,48 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "R-2020.12-SP2 linux64"
+"rundate" "15:24:42 08/24/2021 "
+"runtitle" "                                                                  "
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"opBegin" "analysisInst" ( 
+"Operating Point"
+"inverter_hsp.op0"
+"PSF"
+""
+()
+"Operating Point"
+)
+"timeSweep" "analysisInst" ( 
+"Transient Analysis"
+"inverter_hsp.tr0"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"opEnd" "analysisInst" ( 
+"Operating Point"
+"inverter_hsp.op0@5e-09"
+"PSF"
+""
+()
+"Operating Point"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"inverter_hsp.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

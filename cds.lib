@@ -1,0 +1,8 @@
+INCLUDE /tools/software/cadence/ic/latest/share/cdssetup/cds.lib
+DEFINE NCSU_Devices_FreePDK45 $PDK_DIR/ncsu_basekit/lib/NCSU_Devices_FreePDK45
+DEFINE NCSU_TechLib_FreePDK45 $PDK_DIR/ncsu_basekit/lib/NCSU_TechLib_FreePDK45
+DEFINE NCSU_StdCells $PDK_DIR/osu_soc/lib/freepdk45_cells
+DEFINE EXAMPLE $LAB_DIR/Cadence/EXAMPLE
+DEFINE avTech /tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech
+#Removed by ddDeleteObj: DEFINE Tutorial /home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence/Tutorial
+#Removed by ddDeleteObj: DEFINE Tutorial /home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence/Tutorial

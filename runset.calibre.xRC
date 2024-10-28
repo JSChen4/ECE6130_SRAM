@@ -1,0 +1,4 @@
+*pexRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibrexRC.rul
+*pexRunDir: /nethome/kchae3/CADENCE/PRJ2/ECE8893_LAB_TEST/Cadence
+*pexLayoutGetFromViewer: 1
+*pexSourceGetFromViewer: 1

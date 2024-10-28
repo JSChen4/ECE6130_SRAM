@@ -1,0 +1,239 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 11/10/2021 23:50 (sjfdcl1109) $
+\o Sub version:		sub-version  s226 
+\o Arguments:		-unmapped -mpssession virtuoso184138 -mpshost kl3313-21.ece.gatech.edu 
+\o Working Directory:	kl3313-21.ece.gatech.edu:/home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2249 145 1440 723))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2145 125 1440 723))
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1920 0 1920 1043))
+\a cdsLibManager->libListBox->value = "EXAMPLE"
+\a cdsLibManager->libLineEdit->value = "EXAMPLE"
+\a cdsLibManager->cellListBox->value = "INVX1"
+\a cdsLibManager->cellLineEdit->value = "INVX1"
+\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NMOS_VTG"
+\a cdsLibManager->cellLineEdit->value = "NMOS_VTG"
+\a cdsLibManager->libListBox->value = "NCSU_StdCells"
+\a cdsLibManager->libLineEdit->value = "NCSU_StdCells"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->libListBox->value = "NCSU_StdCells"
+\a cdsLibManager->libLineEdit->value = "NCSU_StdCells"
+\a cdsLibManager->cellListBox->value = "INVX1"
+\a cdsLibManager->cellLineEdit->value = "INVX1"
+\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NMOS_VTH"
+\a cdsLibManager->cellLineEdit->value = "NMOS_VTH"
+\a cdsLibManager->cellListBox->value = "NMOS_VTG"
+\a cdsLibManager->cellLineEdit->value = "NMOS_VTG"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewLibButton->value = t
+\a nrSetWindowVisibility(NewLibShell "show")
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(2617 202 507 559))
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a NewLibShell->newLibNameText->value = "Tutorial"
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a NewLibShell->newLibOKButton->value = t
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\o Created new library "Tutorial" at /home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence/Tutorial.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->cellListBox->value = "NMOS_VTG"
+\a cdsLibManager->cellLineEdit->value = "NMOS_VTG"
+\a nrResizeWindow(workingDialogForm list(2728 378 285 133))
+\a nrResizeWindow(NewLibShell list(2617 165 507 559))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->cellListBox->value = "NMOS_VTG"
+\a cdsLibManager->cellLineEdit->value = "NMOS_VTG"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "Tutorial"
+\a cdsLibManager->libLineEdit->value = "Tutorial"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup0" 25 82 2 "Tutorial")
+\a cdsLibManager->editPropertiesButton->value = t
+\o MPS request: edit property
+\a lmgrLogShowPopup("mainListPopup0" 45 76 2 "Tutorial")
+\a cdsLibManager->editChangeRefsButton->value = t
+\a nrSetCurrentWindow(changeRefDialog)
+\a nrResizeWindow(changeRefDialog list(2525 215 690 533))
+\a changeRefDialog->inLibsListWidget->value = '("Tutorial" )
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(changeRefDialog list(2525 178 690 533))
+\a lmgrLogShowPopup("mainListPopup0" 24 74 2 "Tutorial")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(2557 306 627 425))
+\a deleteForm->deleteListBox->value = '("Tutorial" )
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(2731 337 278 289))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting 1 library.
+\o Deleting library "Tutorial".
+\a nrSetCurrentWindow(cdsLibManager)
+\o Deleted library 'Tutorial'.
+\o Delete of library "Tutorial" succeeded.
+\o Deletion of library done.
+\a nrResizeWindow(workingDialogForm list(2728 452 285 133))
+\a nrResizeWindow(deleteForm list(2557 232 627 425))
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(2728 415 285 133))
+\a cdsLibManager->FileNewLibButton->value = t
+\a NewLibShell->newLibNameText->value = ""
+\a NewLibShell->QLineEdit1->value = ""
+\a NewLibShell->QLineEdit1->value = "/home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence"
+\a nrSetWindowVisibility(NewLibShell->subDialog "show")
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(2617 239 507 559))
+\a NewLibShell->newLibNameText->value = "Tutorial"
+\a NewLibShell->newLibOKButton->value = t
+\a nrSetCurrentWindow(workingDialogForm)
+\o Created new library "Tutorial" at /home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence/Tutorial.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(2736 415 285 133))
+\a nrResizeWindow(NewLibShell list(2617 202 507 559))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "Tutorial"
+\a cdsLibManager->libLineEdit->value = "Tutorial"
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Tutorial"
+\a cdsLibManager->libLineEdit->value = "Tutorial"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Tutorial"
+\a cdsLibManager->libLineEdit->value = "Tutorial"
+\a cdsLibManager->cellListBox->value = "myInverter"
+\a cdsLibManager->cellLineEdit->value = "myInverter"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "myInverter"
+\a cdsLibManager->cellLineEdit->value = "myInverter"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrResizeWindow(cdsLibManager list(2145 125 1440 723))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "Tutorial"
+\a cdsLibManager->libLineEdit->value = "Tutorial"
+\a cdsLibManager->cellListBox->value = "myInverter"
+\a cdsLibManager->cellLineEdit->value = "myInverter"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup0" 41 71 2 "Tutorial")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(2557 306 627 425))
+\a deleteForm->deleteListBox->value = '("Tutorial" )
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(2731 374 278 289))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting 1 library.
+\o Deleting library "Tutorial".
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted library 'Tutorial'.
+\o Delete of library "Tutorial" succeeded.
+\o Deletion of library done.
+\a nrResizeWindow(workingDialogForm list(2713 417 285 133))
+\a nrResizeWindow(deleteForm list(2557 269 627 425))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(2713 380 285 133))
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

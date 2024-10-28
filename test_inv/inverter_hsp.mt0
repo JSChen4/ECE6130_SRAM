@@ -1,0 +1,4 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='R-2020.12-SP2 linux64' PARAM_COUNT=0
+.TITLE ''
+ i_inv            temper           alter#          
+ -4.531e-10        2.500e+01       1               
