@@ -1,0 +1,764 @@
+\# Program start time:     UTC 2024.10.06 03:33:52.443
+\# Local time: EDT (UTC-04:00) 2024.10.05 23:33:52.443
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 07/09/2024 22:36 (cpgbld15) $
+\o Hierarchy:		/tools/software/cadence/ic/23.10.080/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR8.40  (64-bit addresses)
+\# Command line:	/tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ece-linlabsrv01.ece.gatech.edu -beanport 11350 -beanbinlog  -beanLogFile /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/amps_Service8.log -mpssession virtuoso1470519 -mpshost ece-linlabsrv01.ece.gatech.edu -davinciService DaVinciService_1470519_1728180005 -scopedPid 1470519 -axlSession fnxSession0 -axlServiceIdFlag 8 -uuid 7b7df95a-e1b7-4e90-9041-c0582ed949a6 -heartbeat /dev/shm/swift-heartbeat.5JEifRnJ7V -log /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log -adeBrokerAddress ece-linlabsrv01.ece.gatech.edu:42875 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D60B5D54DCC37D27E6FA78410926AD02470F28B50992BD92E69ED90048F74DD2F32AE9C019928D92E01E18A02F91BDB4F00001DE1 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	ece-linlabsrv01.ece.gatech.edu (x86_64)
+\# Operating system:	Linux 4.18.0-553.16.1.el8_10.x86_64 #1 SMP Thu Aug 1 04:16:12 EDT 2024
+\# Linux /etc/issue:	****************************************************************************
+\# Linux /etc/issue:	This computer system is the property of the Georgia Institute of Technology.
+\# Linux /etc/issue:	Any user of this system must comply with all Institute and Board of Regents
+\# Linux /etc/issue:	policies, including the Acceptable Use Policy, Cyber Security Policy and
+\# X display name (WxH):	:3045 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        722 MB
+\# Available memory:	    192,031 MB
+\# System memory:	    256,871 MB
+\# Maximum memory size:	    256,321 MB
+\# Max mem available:	    192,204 MB
+\# Initial memory used:	        173 MB
+\#        process size:	      1,700 MB
+\# Thread usage limits (effective/default):	maxthreads 764801/764801 maxload 112.00/112.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		jchen3014
+\o Working Directory:	ece-linlabsrv01.ece.gatech.edu:/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence
+\# Process Id:		60357
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o INFO (CMGR-2107): The following Constraint Manager configuration files have been combined together (in decreasing order of precedence, specified by your search path - setup.loc) 
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/ci/config.xml
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/ci/config.xml
+\o INFO (CMGR-2107): The following Constraint Manager configuration files have been combined together (in decreasing order of precedence, specified by your search path - setup.loc) 
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/caa/config.xml
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/caa/config.xml
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\# Memory report: using         281 MB, process size 1,812 MB at UTC 2024.10.06 03:33:54.030
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o function _teExpandCallbacks redefined
+\o function _teGetCallback redefined
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o function _pcIdeSingleSelectPt redefined
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) License program mode is LSCS.
+\# [23:33:52.142228] Configured Lic search path (23.02-s006): 5280@ece-winlic.ece.gatech.edu:1910@ece-winlic.ece.gatech.edu:27020@ece-winlabsvcs.ece.gatech.edu:1055@ansyslic.ecs.gatech.edu
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso1470519, host=ece-linlabsrv01.ece.gatech.edu). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 60357 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\o //
+\o //  Calibre Skill Interface * (v2024.3_37.19) *
+\o //
+\o //                         Copyright Siemens 1996-2020     
+\o //                             All Rights Reserved.
+\o //         THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //            WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //
+\o loading vars from /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/FreePDK45/ncsu_basekit/cdssetup/cdsenv for tool layout
+\o ---------------------------------------------------------------------------
+\o Welcome to the FreePDK 45nm Free, Open-Source Process Design Kit
+\o 
+\o This initiative is brought to you by the Semiconductor Research
+\o Corporation (SRC), the National Science Foundation (NSF), Silicon
+\o Integration Initiative (Si2), Mentor Graphics, and Synopsys.
+\o 
+\o This version of the kit was created by Rhett Davis, Paul Franzon,
+\o Michael Bucher, and Sunil Basavarajaiah of North Carolina State University,
+\o and James Stine and Ivan Castellanos of Oklahoma State University.
+\o 
+\o Contributions and modifications to this kit are welcomed and encouraged.
+\o 
+\o Copyright 2008 North Carolina State University (ncsu_basekit subtree)
+\o                and Oklahoma State University (osu_soc subtree)
+\o 
+\o Licensed under the Apache License, Version 2.0 (the "License");
+\o you may not use this file except in compliance with the License.
+\o You may obtain a copy of the License at
+\o 
+\o     http://www.apache.org/licenses/LICENSE-2.0
+\o 
+\o Unless required by applicable law or agreed to in writing, software
+\o distributed under the License is distributed on an "AS IS" BASIS,
+\o WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+\o See the License for the specific language governing permissions and
+\o limitations under the License.
+\o ---------------------------------------------------------------------------
+\o 
+\o Done loading FreePDK customizations.
+\p > 
+\o Loading le.cxt 
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 60357' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\i _axlRunServices()
+\o Loading simui.cxt 
+\o [2024-10-05 23:34:00.354 -0400] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:00.397 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 0, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "8321", "category": "point-netlist"}
+\# Memory report: using         436 MB, process size 2,393 MB at UTC 2024.10.06 03:34:01.482
+\# Unzipping history /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial/myInverter/maestro/history/ExplorerRun.0.zip::historyData.sdb
+\o Loading vqp.cxt 
+\o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 8 is already registered. 
+\o 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Tutorial
+\o 	Cell         = myInverter
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/1/Tutorial_myInverter_1
+\o 	Results Loc  = /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro
+\o 	Project Dir  = /nethome/jchen3014/simulation
+\o 	Setup DB loc = /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial/myInverter/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* The directory: '/tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/cds.lib' for Lib 'avTech'.
+\o INFO (TECH-150003): The technology database "NCSU_TechLib_FreePDK45" has been automatically
+\o updated from revision 226610(DM 0) to revision 227612(DM 3) in virtual memory.
+\o Loading spectrei.cxt 
+\# Available memory:        192,025 MB at UTC 2024.10.06 03:34:02.025
+\# Memory report: Maximum memory size now 192,516 MB at UTC 2024.10.06 03:34:02.026
+\# Thread usage report: 43 active threads, active load 1.40 at UTC 2024.10.06 03:34:02.026
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\# Unzipping history /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial/myInverter/maestro/history/ExplorerRun.0.zip::historyData.sdb
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o [2024-10-05 23:34:03.655 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Setting dspf2adeEnabled on oasis_session in _axlRunTestNetlister {"jobid": "8", "history": "ExplorerRun.0", "point": 0, "testname": "Tutorial_myInverter_1", "isDspf2ADEEnabled": false}
+\o [2024-10-05 23:34:03.655 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"jobid": "8", "history": "ExplorerRun.0", "point": 0, "testname": "Tutorial_myInverter_1", "testnameKey": "Tutorial_myInverter_1", "event": "start", "category": "design-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VIN = "0"
+\o Setting var VM = "nil"
+\o Setting var W = "220n"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/psf/Tutorial_myInverter_1
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [23:34:03.230787] Periodic Lic check successful
+\# [23:34:03.755081] Feature usage summary:
+\o Initializing the control file using cp:
+\o     cp /tools/software/cadence/ic/23.10.080/tools.lnx86/dfII/etc/si/control.spectre /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/psf/Tutorial_myInverter_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Oct  5 23:34:03 2024
+\o Loading json.cxt 
+\o End netlisting Oct  5 23:34:04 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          1.0s (4.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:05.145 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"jobid": "8", "history": "ExplorerRun.0", "point": 0, "testname": "Tutorial_myInverter_1", "testnameKey": "Tutorial_myInverter_1", "event": "finish", "category": "design-netlist"}
+\o [2024-10-05 23:34:06.154 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 1, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "12945", "category": "point-netlist"}
+\o [2024-10-05 23:34:06.154 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 1, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "220n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "220n"
+\o Setting var VIN = "0"
+\o Setting var VM = "nil"
+\o Setting var W = "220n"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/1/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/1/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:06 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:06 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Memory report: using         544 MB, process size 2,501 MB at UTC 2024.10.06 03:34:07.142
+\o [2024-10-05 23:34:07.716 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 884.5977 MBytes, peak memory used: 884.5977 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 1, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:07.717 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 1, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-05 23:34:08.720 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 2, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "16305", "category": "point-netlist"}
+\o [2024-10-05 23:34:08.720 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 2, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "350n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "350n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/2/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/2/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:09 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:09 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:09.819 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 887.4570 MBytes, peak memory used: 887.4570 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 2, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:09.819 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 2, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-05 23:34:10.822 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 3, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "18890", "category": "point-netlist"}
+\o [2024-10-05 23:34:10.822 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 3, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "360n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "360n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/3/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/3/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:11 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:11 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:11.933 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 887.5000 MBytes, peak memory used: 887.5000 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 3, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:11.934 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 3, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-05 23:34:12.937 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 4, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "21475", "category": "point-netlist"}
+\o [2024-10-05 23:34:12.937 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 4, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "370n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "370n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/4/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/4/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:13 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:13 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:13.931 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 889.5234 MBytes, peak memory used: 889.5234 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 4, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:13.931 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 4, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-05 23:34:14.936 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 5, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "24060", "category": "point-netlist"}
+\o [2024-10-05 23:34:14.936 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 5, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "380n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "380n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/5/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/5/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:15 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:15 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:16.175 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 889.5938 MBytes, peak memory used: 889.5938 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 5, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:16.176 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 5, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-05 23:34:17.179 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 6, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "26645", "category": "point-netlist"}
+\o [2024-10-05 23:34:17.179 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 6, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "390n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "390n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/6/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/6/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:17 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:17 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:18.218 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 889.5977 MBytes, peak memory used: 889.5977 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 6, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:18.218 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 6, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o **** stopping dspf2oa stdobj@0x395861d0 11 8
+\o [2024-10-05 23:34:41.583 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 0, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "29278", "category": "point-netlist"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Unzipping history /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial/myInverter/maestro/history/ExplorerRun.0.zip::historyData.sdb
+\o *Warning* AXL Context Manager : job 8 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = Tutorial
+\o 	Cell         = myInverter
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/1/Tutorial_myInverter_1
+\o 	Results Loc  = /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro
+\o 	Project Dir  = /nethome/jchen3014/simulation
+\o 	Setup DB loc = /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial/myInverter/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\# Unzipping history /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial/myInverter/maestro/history/ExplorerRun.0.zip::historyData.sdb
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o [2024-10-05 23:34:43.599 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Setting dspf2adeEnabled on oasis_session in _axlRunTestNetlister {"jobid": "8", "history": "ExplorerRun.0", "point": 0, "testname": "Tutorial_myInverter_1", "isDspf2ADEEnabled": false}
+\o [2024-10-05 23:34:43.599 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"jobid": "8", "history": "ExplorerRun.0", "point": 0, "testname": "Tutorial_myInverter_1", "testnameKey": "Tutorial_myInverter_1", "event": "start", "category": "design-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var VIN = "0"
+\o Setting var VM = "nil"
+\o Setting var W = "220n"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/psf/Tutorial_myInverter_1
+\o 
+\o generate netlist...
+\o Initializing the control file using cp:
+\o     cp /tools/software/cadence/ic/23.10.080/tools.lnx86/dfII/etc/si/control.spectre /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/psf/Tutorial_myInverter_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Oct  5 23:34:43 2024
+\o End netlisting Oct  5 23:34:44 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          1.0s (4.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:44.923 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"jobid": "8", "history": "ExplorerRun.0", "point": 0, "testname": "Tutorial_myInverter_1", "testnameKey": "Tutorial_myInverter_1", "event": "finish", "category": "design-netlist"}
+\o [2024-10-05 23:34:45.927 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 1, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "31064", "category": "point-netlist"}
+\o [2024-10-05 23:34:45.927 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 1, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "220n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "220n"
+\o Setting var VIN = "0"
+\o Setting var VM = "nil"
+\o Setting var W = "220n"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/1/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/1/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:46 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:46 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:47.594 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 891.7930 MBytes, peak memory used: 891.7930 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 1, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:47.595 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 1, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-05 23:34:48.598 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 2, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "35725", "category": "point-netlist"}
+\o [2024-10-05 23:34:48.598 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 2, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "350n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "350n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/2/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/2/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:48 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:49 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          1.0s (4.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:49.603 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 893.7930 MBytes, peak memory used: 893.7930 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 2, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:49.603 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 2, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-05 23:34:50.607 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 3, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "38319", "category": "point-netlist"}
+\o [2024-10-05 23:34:50.608 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 3, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "360n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "360n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/3/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/3/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:50 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:51 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          1.0s (4.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:51.649 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 889.1484 MBytes, peak memory used: 893.7930 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 3, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:51.649 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 3, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-05 23:34:52.652 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 4, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "40913", "category": "point-netlist"}
+\o [2024-10-05 23:34:52.653 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 4, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "370n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "370n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/4/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/4/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:53 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:53 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:53.723 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 889.1484 MBytes, peak memory used: 893.7930 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 4, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:53.724 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 4, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-05 23:34:54.728 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 5, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "43498", "category": "point-netlist"}
+\o [2024-10-05 23:34:54.728 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 5, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "380n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "380n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/5/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/5/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:55 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:55 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:55.958 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 889.2695 MBytes, peak memory used: 893.7930 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 5, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:55.959 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 5, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-05 23:34:56.961 -0400] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "8", "history": "ExplorerRun.0", "point": 6, "testname": "Tutorial_myInverter_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log", "logFileSize": "46083", "category": "point-netlist"}
+\o [2024-10-05 23:34:56.962 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 6, "testname": "Tutorial_myInverter_1", "event": "start", "category": "point-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Lib = Tutorial 	 Cell = myInverter 	 View = schematic 
+\o Inst = M1 	 Name = w 	 Val = "390n"
+\o Setting device parameter Tutorial/myInverter/schematic/M1.w = "390n"
+\o 
+\o *Info*    Netlist Directory =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/6/Tutorial_myInverter_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /nethome/jchen3014/simulation/Tutorial/myInverter/maestro/results/maestro/ExplorerRun.0/6/Tutorial_myInverter_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Begin Incremental Netlisting Oct  5 23:34:57 2024
+\o WARNING (OSSHNL-226): There are more design variables used in the current netlisting session as
+\o compared to the last session in the current run directory. The netlist(s)
+\o generated in the last netlisting session cannot be reused for incremental
+\o netlisting. Therefore re-netlisting the design.
+\o 
+\o End netlisting Oct  5 23:34:57 2024
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2024-10-05 23:34:57.944 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 889.2695 MBytes, peak memory used: 893.7930 MBytes {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "testname": "Tutorial_myInverter_1", "point": 6, "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o [2024-10-05 23:34:57.945 -0400] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "8", "history": "ExplorerRun.0", "point": 6, "testname": "Tutorial_myInverter_1", "event": "finish", "category": "point-netlist"}
+\o [2024-10-05 23:39:59.246 -0400] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "8", "hostname": "ece-linlabsrv01.ece.gatech.edu", "processid": 60357, "history": "ExplorerRun.0", "logfile": "/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service8.log"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [23:40:00.297546] Cdslmd servers:5280@ece-winlic.ece.gatech.edu:1910@ece-winlic.ece.gatech.edu:27020@ece-winlabsvcs.ece.gatech.edu:1055@ansyslic.ecs.gatech.edu
+\# [23:40:00.297570] Feature usage summary:
+\# Memory report: on exit            543 MB, process size 2,500 MB at UTC 2024.10.06 03:40:00.297
+\# Memory report: peak usage         551 MB, process size 2,508 MB

@@ -6,3 +6,9 @@ DEFINE EXAMPLE $LAB_DIR/Cadence/EXAMPLE
 DEFINE avTech /tools/software/cadence/assura/618/latest/tools.lnx86/assura/etc/avtech/avTech
 #Removed by ddDeleteObj: DEFINE Tutorial /home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence/Tutorial
 #Removed by ddDeleteObj: DEFINE Tutorial /home/green3/ssharma497/VLSI_course_TA_stuff/Adv_VLSI_sys/ECE6130_LAB/Cadence/Tutorial
+DEFINE Tutorial /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/Tutorial
+#Removed by ddDeleteObj: DEFINE myTransmissionGate /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/myTransmissionGate
+DEFINE Jackie_tutorial /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/Jackie_tutorial
+DEFINE Jackie_Inv /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/Jackie_Inv
+DEFINE aaaa /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/aaaa
+DEFINE trying_my_inverter_upload /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/trying_my_inverter_upload

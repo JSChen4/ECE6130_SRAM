@@ -1,0 +1,90 @@
+\# Program start time:     UTC 2024.10.26 00:15:43.982
+\# Local time: EDT (UTC-04:00) 2024.10.25 20:15:43.982
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 07/09/2024 22:36 (cpgbld15) $
+\o Hierarchy:		/tools/software/cadence/ic/23.10.080/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR8.40  (64-bit addresses)
+\# Command line:	/tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ece-linlabsrv01.ece.gatech.edu -beanport 11815 -beanbinlog  -beanLogFile /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/amps_Service33.log -mpssession virtuoso1645282 -mpshost ece-linlabsrv01.ece.gatech.edu -davinciService DaVinciService_1645282_1729895283 -scopedPid 1645282 -axlSession fnxSession0 -axlServiceIdFlag 33 -uuid daed97dc-9d08-4d80-8ab0-3e98928d8ac7 -heartbeat /dev/shm/swift-heartbeat.pmH2wttrUa -log /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service33.log -adeBrokerAddress ece-linlabsrv01.ece.gatech.edu:45169 -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D60B5D54DCC37D27E6FA78410926AD02470F28B50992BD92E69ED90048F74DD2F32AE9C019928D92E01FFBBB2C8ABDB5100001E0C -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	ece-linlabsrv01.ece.gatech.edu (x86_64)
+\# Operating system:	Linux 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 11 18:02:00 EDT 2024
+\# Linux /etc/issue:	****************************************************************************
+\# Linux /etc/issue:	This computer system is the property of the Georgia Institute of Technology.
+\# Linux /etc/issue:	Any user of this system must comply with all Institute and Board of Regents
+\# Linux /etc/issue:	policies, including the Acceptable Use Policy, Cyber Security Policy and
+\# X display name (WxH):	:5742 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        723 MB
+\# Available memory:	    197,304 MB
+\# System memory:	    256,871 MB
+\# Maximum memory size:	    256,321 MB
+\# Max mem available:	    197,477 MB
+\# Initial memory used:	        173 MB
+\#        process size:	      1,700 MB
+\# Thread usage limits (effective/default):	maxthreads 764803/764803 maxload 112.00/112.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		jchen3014
+\o Working Directory:	ece-linlabsrv01.ece.gatech.edu:/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence
+\# Process Id:		3461276
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o INFO (CMGR-2107): The following Constraint Manager configuration files have been combined together (in decreasing order of precedence, specified by your search path - setup.loc) 
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/ci/config.xml
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/ci/config.xml
+\o INFO (CMGR-2107): The following Constraint Manager configuration files have been combined together (in decreasing order of precedence, specified by your search path - setup.loc) 
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/caa/config.xml
+\o /tools/software/cadence/ic/latest/share/cdssetup/dfII/caa/config.xml
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\# 0 lines crushed from the buffer
+\# 0 lines crushed from the buffer
+\o INFO (DB-170018): (dbPanic) dumping stack
+\o libvirtuos_sh.so:voStackTrace+59()
+\o virtuoso:dbPanic+374()
+\o libvirtuos_sh.so:voDoAbortFuncs+229()
+\# Memory report: using         441 MB, process size 1,971 MB at UTC 2024.10.26 00:15:46.248
+\o libvirtuos_sh.so:voSigAbortInfo+361()
+\o libpthread.so.0:__restore_rt+0()
+\o libpthread.so.0:__open64+214()
+\o libcdsQt5Core.so.5:libshdb_verilog.so/PLT+2664608()
+\o libcdsQt5Core.so.5:_ZN9QLockFile7tryLockEi+68()
+\o libcdsQt5Core.so.5:libshdb_verilog.so/PLT+2605486()
+\o libcdsQt5Core.so.5:libshdb_verilog.so/PLT+2607511()
+\o libcdsQt5Core.so.5:_ZN9QSettings5eventEP6QEvent+46()
+\o libcdsQt5Widgets.so.5:_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+127()
+\o libcdsQt5Widgets.so.5:_ZN12QApplication6notifyEP7QObjectP6QEvent+392()
+\o libcdsQt5Core.so.5:_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+282()
+\o libcdsQt5Core.so.5:_ZN23QCoreApplicationPrivate16sendPostedEventsEP7QObjectiP11QThreadData+393()
+\o virtuoso:hifFlush+43()
+\o libil_sh.so:iliVcodeEval2C+12005()
+\o libil_sh.so:iliVcodeEval2+69()
+\o libil_sh.so:ilxSkillEval2+225()
+\o libil_sh.so:_ilErrSet+226()
+\o libil_sh.so:iliCallInitProc+157()
+\o libil_sh.so:ilLoadCapContext+1044()
+\o libil_sh.so:iliInitClients+1499()
+\o virtuoso:main+293()
+\o libc.so.6:__libc_start_main+229()
+\o virtuoso:_start+41()

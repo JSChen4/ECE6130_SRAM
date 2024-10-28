@@ -1,0 +1,80 @@
+\# Program start time:     UTC 2024.10.25 17:20:40.170
+\# Local time: EDT (UTC-04:00) 2024.10.25 13:20:40.170
+\o Program:		@(#)$CDS: viva version IC23.1-64b 07/09/2024 22:31 (sjfhw318) $
+\o Hierarchy:		/tools/software/cadence/ic/23.10.080/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR8.40  (64-bit addresses)
+\# Command line:	/tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/viva -brokerAddress ece-linlabsrv01.ece.gatech.edu:37135 -tag e7479f4f024ce067c10e5b0e52f2f95a -axlsession fnxSession0 -libCellView Tutorial:myInverter:maestro -adeService distribuedPlot -noautostart -distributedPlot 1 -log /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/distributedPlot.0.log -no-ciw -nocdsinit -viva-service 000143E78B008E70EF2803E3E662FC18BC4D60B5D54DCC37D27E6FA78410926AD02470F28B50992BD92E69ED90048F74DD2F32AE9C019928D92E01F85C7D2F64DB5600001DB4
+\# Host name (type):	ece-linlabsrv01.ece.gatech.edu (x86_64)
+\# Operating system:	Linux 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 11 18:02:00 EDT 2024
+\# Linux /etc/issue:	****************************************************************************
+\# Linux /etc/issue:	This computer system is the property of the Georgia Institute of Technology.
+\# Linux /etc/issue:	Any user of this system must comply with all Institute and Board of Regents
+\# Linux /etc/issue:	policies, including the Acceptable Use Policy, Cyber Security Policy and
+\# X display name (WxH):	ece-linlabsrv01.ece.gatech.edu:233 (2560x2088)
+\# Available geometry:			TL(437:1118) BR(2164:2112)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x1600000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	         90 MB
+\# Available memory:	    196,874 MB
+\# System memory:	    256,871 MB
+\# Maximum memory size:	    256,840 MB
+\# Max mem available:	    196,932 MB
+\# Initial memory used:	         58 MB
+\#        process size:	        612 MB
+\# Thread usage limits (effective/default):	maxthreads 764803/764803 maxload 112.00/112.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		jchen3014
+\o Working Directory:	ece-linlabsrv01.ece.gatech.edu:/nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence
+\# Process Id:		2949018
+\o 
+\o COPYRIGHT (C) 1992-2024  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2024  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Connecting to maeBroker at port: 'ece-linlabsrv01.ece.gatech.edu:37135'
+\o Loading ams.cxt 
+\o Loading auCore.cxt 
+\o INFO (ELI-00333) License program mode is VIVAservice.
+\p > 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading viva.cxt 
+\o Distributed Plot: Initializing Distributed Plot service.
+\# Memory report: using         235 MB, process size 1,401 MB at UTC 2024.10.25 17:20:44.140
+\a hiSetCurrentWindow(window(2))
+\r t
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o ERROR (WIA-1175): Cannot plot waveform signals because no waveform data is available for plotting.
+\o One of the possible reasons can be that 'Save' check box for these signals are not selected in the Outputs Setup pane. Ensure that these check boxes are selected before you run the simulation.
+\o Loading vqp.cxt 
+\o ERROR (WIA-1175): Cannot plot waveform signals because no waveform data is available for plotting.
+\o One of the possible reasons can be that 'Save' check box for these signals are not selected in the Outputs Setup pane. Ensure that these check boxes are selected before you run the simulation.
+\# Memory report: using         348 MB, process size 1,578 MB at UTC 2024.10.25 17:20:47.480
+\a hiCloseWindow(swindow(1))
+\r t
+\# Available memory:        196,875 MB at UTC 2024.10.25 17:20:50.593
+\# Memory report: Maximum memory size now 197,213 MB at UTC 2024.10.25 17:20:50.593
+\# Thread usage report: 42 active threads, active load 1.40 at UTC 2024.10.25 17:20:50.593
+\a exit()
+\o 
+\# Memory report: on exit            339 MB, process size 1,569 MB at UTC 2024.10.25 17:21:18.081
+\# Memory report: peak usage         348 MB, process size 1,578 MB

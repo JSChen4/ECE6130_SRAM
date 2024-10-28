@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jchen3014
+HostName                       ece-linlabsrv01.ece.gatech.edu
+ProcessIdentifier              2935484
+ProcessCreationTime_UTC        1729876805
+ProcessCreationTime_Readable   Fri Oct 25 13:20:05 2024 EDT
+AppIdentifier                  Unknown Application
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for simulation monitor log file
+FilePathUsedToEditLock         /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Job3.log
+TimeEditLocked                 Fri Oct 25 13:20:05 2024 EDT

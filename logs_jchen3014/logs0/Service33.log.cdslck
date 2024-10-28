@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jchen3014
+HostName                       ece-linlabsrv01.ece.gatech.edu
+ProcessIdentifier              3461276
+ProcessCreationTime_UTC        1729901743
+ProcessCreationTime_Readable   Fri Oct 25 20:15:43 2024 EDT
+AppIdentifier                  /tools/software/cadence/ic/latest/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /nethome/jchen3014/ECE6130_Updated/ECE6130_LAB/Cadence/logs_jchen3014/logs0/Service33.log
+TimeEditLocked                 Fri Oct 25 20:15:43 2024 EDT

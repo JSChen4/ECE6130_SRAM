@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Oct 25 15:46:02 2024 
+Best design point: 1
+Design specs: 
+	Tutorial_myTransmissionGate_1	corner	Nominal - 
+Design parameters: 
+	Tutorial/myTransmissionGate/schematic/M1  w		pmos_width
+
+ExplorerRun.0
+Number of points completed: 21
+Number of simulation errors: 1
+ExplorerRun.0 completed. 
+Current time: Fri Oct 25 15:47:30 2024 

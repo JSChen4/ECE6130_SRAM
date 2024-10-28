@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Oct 25 20:37:48 2024 
+Best design point: 1
+Design specs: 
+	Tutorial_myInverter_1	corner	Nominal - 
+Design parameters: 
+	var_x		50n
+	Tutorial/myInverter/schematic/M1  w		50n
+
+ExplorerRun.0
+Number of points completed: 6
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Fri Oct 25 20:38:17 2024 
